@@ -1,0 +1,19 @@
+{
+  "name": "tailwindtemplates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development postcss css/tailwind.css -o css/build.css -w",
+    "build": "NODE_ENV=production postcss css/tailwind.css -o css/build.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.0",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.3"
+  }
+}
